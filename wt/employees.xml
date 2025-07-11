@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE employees SYSTEM "employees.dtd">
+<employees>
+    <employee>
+        <id>101</id>
+        <name>John Doe</name>
+        <department>Human Resources</department>
+        <position>Manager</position>
+        <salary>75000</salary>
+    </employee>
+    <employee>
+        <id>102</id>
+        <name>Jane Smith</name>
+        <department>Finance</department>
+        <position>Analyst</position>
+        <salary>65000</salary>
+    </employee>
+    <employee>
+        <id>103</id>
+        <name>Mike Johnson</name>
+        <department>IT</department>
+        <position>Developer</position>
+        <salary>80000</salary>
+    </employee>
+</employees>

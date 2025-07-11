@@ -1,0 +1,100 @@
+.logo{
+            
+}
+.logo img{
+    width: 134px;
+}
+nav{
+    display: flex;justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI';
+}
+.right ul{
+    display: flex;
+    gap: 20px;
+}
+.right ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.right ul li:hover{
+    color: aqua;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+    font-family: sans-serif;
+gap: 23px;
+}
+.first span
+{
+    font-size: 40px;
+}
+.first button{
+    border: none;
+background-color: #00b6d1;
+padding: 20px;
+color: aliceblue;
+font-weight: 700;
+border-radius: 6px;
+cursor: pointer;
+
+}
+.first p{
+    width: 51vw;
+text-align: center;
+font-size: 16px;
+}
+
+.flex{
+    display: inline;
+}
+.second{
+    max-width: 73vw;
+    margin: auto;
+    align-items: center;
+}
+.btn{
+    border: none;
+background-color: #5cb85c;
+padding: 7px 23px;
+color: aliceblue;
+font-weight: 700;
+border-radius: 6px;
+text-align: center;
+cursor: pointer;
+}
+.item{
+    width: 14vw;
+padding: 53px;
+background-color: #f7f6f6;
+border-radius: 15px;
+}
+.lang{
+    font-size: 20px;
+font-weight: 600;
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: 'Segoe UI'
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+@media screen and (max-width:1145px){
+    .grid{
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 20px;
+}
+}
+.btn a{
+    text-decoration: none;
+    color: aliceblue;
+}

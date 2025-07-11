@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css card making</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Protest+Guerrilla&family=Sofadi+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+      body {
+        background-color: gray;
+        padding: 34px;
+        display: flex;
+        margin: auto;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .card {
+        background-color: white;
+        height: 384px;
+        width: 244px;
+        margin: 4px;
+        border-radius: 9px;
+      }
+
+      .image {
+        padding: 10px;
+      }
+      .image img {
+        border-radius: 18px;
+        position: relative;
+        left: 57px;
+      }
+
+      .content {
+        padding: 12px;
+      }
+
+      .content p {
+        font-size: 13px;
+        color: rgb(109, 102, 102);
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      .content h2 {
+        font-family: "Oswald", system-ui;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+      }
+      .capsule {
+        padding: 5px 10px;
+      }
+      .capsule span {
+        border: 1px solid rgb(133, 128, 128);
+        padding: 1px 4px;
+        border-radius: 17px;
+        font-size: 12px;
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      .read{
+        /* padding: 8px 82px; */
+        text-align: center;
+      }
+      .read button{
+        border: none;
+        background-color: rgb(165, 238, 238);
+        color: rgb(31, 119, 196);
+        border-radius: 9px;
+        padding: 6px 7px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      .read button:hover{
+        background-color: rgb(8, 221, 221);
+        color: rgb(31, 119, 196);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="image">
+        <img
+          height="155px"
+          src="https://static.zerochan.net/Vash.the.Stampede.full.3964526.jpg"
+          alt=""
+        />
+      </div>
+      <div class="capsule">
+        <span>Anime</span>
+        <span>Character</span>
+      </div>
+      <div class="content">
+        <h2>vash the stampede</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+          laboriosam quas eaque debitis? Vitae, distinctio!
+        </p>
+      </div>
+      <div class="read">
+        <button>Read more</button>
+      </div>
+    </div>
+
+
+    
+  </body>
+</html>

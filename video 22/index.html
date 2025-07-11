@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            font-size: 12px;
+        }
+        .box{
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 80vw;
+            background-color: aqua;
+            margin: auto;
+        }
+        .container{
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 80vw;
+            background-color: aqua;
+            margin: 23px auto;
+            /* height: 80vh; */
+            min-height: 80vh;
+            
+
+        }
+
+        .container >div{
+            font-size: 0.9em;
+            width: 50%;
+            border: 1px solid darkblue;
+        }
+
+        .container >div > div{
+            font-size: 2em;
+            width: 50%;
+            border: 1px solid rgb(224, 9, 9);
+        }
+
+
+
+        .foot{
+            box-sizing: border-box;
+            border: 2px solid blue;
+            margin: auto;
+            width: 80vw;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        this is a box
+
+    </div>
+
+    <div class="container">
+        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima vero ullam delectus natus praesentium, iusto et corporis officiis dolorum vel nostrum ea nulla optio ad doloribus nisi dolor cum suscipit!
+
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae modi facilis quisquam. Sunt, ipsum earum?
+            </div>
+        </div>
+        
+    </div>
+    <div class="foot">
+        this is a footer
+    </div>
+</body>
+</html>

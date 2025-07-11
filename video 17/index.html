@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selectors</title>
+
+    <style>
+        /* element selector */
+         div{
+            background-color: blue;
+        } 
+
+        /* class selector */
+         .red
+         {
+            background-color: red;
+         }
+
+         /* id selector */
+
+         #green{
+            background-color: green  ;
+         }
+
+         /* child selector */
+         div > p
+         {
+            color: yellow;
+            background-color: violet;
+         }
+
+         /* desendent selector */
+
+         div p{
+            color: red;
+            background-color: orange;
+         }
+
+         /* universal selector */
+
+         *{
+            margin: 0;
+            padding: 9;
+         }
+
+         /* pseudo selector */
+
+         a:visited{
+            color :pink;
+
+         }
+
+         a:link{
+            color: yellow;
+         }
+
+         a:hover{
+             background-color:  black;
+            
+         }
+
+         a:active{
+                background-color: grey  ;
+         }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="red">this is div</div>
+    <div>this is div 2</div>
+    <div id="green">this is div 3</div>
+
+    <div>
+        <p>this is para in div</p>
+    </div>
+    <div>
+        <article>
+            <p>this is para in div</p>
+        </article>
+       
+    </div>
+
+    <a href="https://www.google.com">Go to google </a>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card</title>
+    <style>
+        .card{
+            display: flex;
+            border: 2px solid black;
+            padding: 9px;
+            margin: 89px;
+            gap: 11px;
+            width: 750px;
+            justify-content: stretch;
+            align-items: center;
+            background-color: black;
+            color: white;
+            height: 100px;
+        }
+        .image img{
+            width: 200px;
+            
+            
+        }
+        .image{
+            width: 230px;
+            height:130px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .capsule{
+            position: absolute;
+    font-size: small;
+    right: 23px;
+    z-index: 10;
+    bottom: 16px;
+    background-color: black;
+    opacity: 0.7;
+    width: 35px;
+    border-radius: 3px;
+    /* align-items: center; */
+    padding-left: 5px;}
+        .text h1{
+            font-size: 20px;
+            
+        }
+        .text{
+            margin: 0px;
+        }
+        .br{
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="image">
+<img  class="br" src="https://i.ytimg.com/vi/aQn7ssqHYp4/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLBvDMxYVxdfsOdMjoI0AhYZyZyQpA" alt="" srcset="">
+<div class="capsule">31:00</div>
+            </div>
+            <div class="text">
+                <h1>Introduction to backend |sigma web development #2</h1>
+                <p>CodeWithHarry . 56k views. 7 months ago</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

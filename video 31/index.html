@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css media query</title>
+    <style>
+        body{
+            background-color: aqua;
+
+        }
+        @media screen and (orientation:landscape) {
+            body{
+                border: 4px solid black;
+            }
+            
+        }
+        @media only screen and (max-width:445px){
+            body{
+                background-color: blue;
+            }
+            .boxes{
+                flex-direction: column;
+            }
+
+            
+        }
+        .boxes{
+            display: flex;
+        }
+
+        .box{
+
+            background-color: red;
+            height:45px;
+            width: 45px;
+            padding:34px;
+            margin: 54px;
+            border: 2px solid black;
+
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        i am aqua body !
+    </div>
+    <div class="boxes">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>

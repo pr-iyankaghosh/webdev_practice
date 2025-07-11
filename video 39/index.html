@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid</title>
+    <style>
+        .container{
+            width: 80vw;
+            height: 100vh;
+            border:2px solid blue;
+            display: grid;
+            /* grid-template-columns:[phela]120px [doosra]100px [t]; */
+            /* grid-template-columns: 1fr 2fr 1fr;
+             */
+             /* grid-template-columns: repeat(4,minmax(100px, 1fr)); */
+             grid-template-columns: repeat(4, 80px);
+             grid-template-rows: repeat(2, 80px);
+             align-content: end;
+             justify-content: center;
+            justify-items: center;
+            row-gap: 10px;
+            column-gap: 20px;
+            align-items: center;
+
+        }
+        .item{
+            border: 2px solid yellow;
+            height: 55px;
+            width: 55px;
+        }
+        .item1{
+            /* grid-row: 1/2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            /* grid-column: phela/doosra; */
+        } 
+        .item4{
+            /* grid-row: 1/2;
+            grid-column: 1/2; */
+            align-self:flex-start;
+            justify-self:start;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1">1</div>
+        <div class="item item2">2</div>
+        <div class="item item3">3</div>
+        <div class="item item4">4</div>
+        <div class="item item5">5</div>
+    </div>
+</body>
+</html>

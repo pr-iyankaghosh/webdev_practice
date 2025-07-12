@@ -35,8 +35,8 @@ async function main() {
     console.log('second');
     const data=await getdata();
 
-    const da=await anotherdata();
-    console.log(da);
+    const data2=await anotherdata();
+    console.log(data2);
 
     console.log(data);
 
